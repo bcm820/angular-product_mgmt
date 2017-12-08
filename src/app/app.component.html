@@ -1,0 +1,12 @@
+
+<h2>PPM - Project Product Management</h2>
+<nav>
+  <a [routerLink]="['']">Home</a> |
+  <a [routerLink]="['products']">Product List</a> |
+  <a [routerLink]="['products','new']">Product Creation</a>
+</nav>
+<div class=row>
+  <div class=col-sm-8>
+    <hr><router-outlet></router-outlet>
+  </div>
+</div>
